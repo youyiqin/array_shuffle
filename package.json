@@ -2,7 +2,6 @@
   "name": "shuffle-my-array",
   "version": "1.0.5",
   "description": "Shuffle array based on Fisher-Yates shuffle algorithm",
-  "main": "src/index.ts",
   "scripts": {
     "test": "jest",
     "build": "node clear.js && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && node fixup.js",
@@ -48,5 +47,11 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/mjs/index.js"
+    }
   }
 }

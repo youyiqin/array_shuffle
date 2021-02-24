@@ -1,5 +1,5 @@
 // @ts-ignore
-import arrayShuffle from '../src/index.ts';
+import { arrayShuffle } from '../src/index.ts';
 
 let i = 0;
 while (i < 100) {
@@ -8,9 +8,6 @@ while (i < 100) {
   });
   i++;
 }
-
 it('should be equal', () => {
   expect(arrayShuffle([1])).toStrictEqual([1]);
 });
-XcF / fgfMf0pYT1x7lOj4kRvMDkw=
-Qyy@2020====

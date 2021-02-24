@@ -1,4 +1,4 @@
-export default function arrayShuffle(params: any[]) {
+function arrayShuffle(params: any[]) {
   let len = params.length;
   while (len > 1) {
     const index = Math.floor(Math.random() * len--);
@@ -7,3 +7,5 @@ export default function arrayShuffle(params: any[]) {
   }
   return params;
 }
+
+export { arrayShuffle };

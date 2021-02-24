@@ -19,5 +19,6 @@ module.exports = {
   rules: {
     'no-plusplus': 'off',
     'no-console': 'off',
+    'import/prefer-default-export': 'off',
   },
 };

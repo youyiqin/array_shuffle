@@ -1,6 +1,6 @@
 {
   "name": "shuffle-my-array",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shuffle array based on Fisher-Yates shuffle algorithm",
   "main": "src/index.ts",
   "scripts": {

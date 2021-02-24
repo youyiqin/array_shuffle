@@ -10,12 +10,14 @@ npm i shuffle-my-array
 
 ## Quick Tour
 
+> you can import the library with difference ways
+
 Import the library:
 
 ```js
 // ESM
 import { arrayShuffle } from 'shuffle-my-array';
-
+// or
 // commonjs
 const { arrayShuffle } = require('shuffle-my-array);
 ```

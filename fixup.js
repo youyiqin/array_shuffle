@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const str1 = `
 {
-    "type": "commonjs"
+    "type": "module"
 }
 `;
 

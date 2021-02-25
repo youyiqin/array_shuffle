@@ -1,16 +1,12 @@
 const fs = require('fs');
 
-const str1 = `
-{
+const str1 = `{
     "type": "module"
-}
-`;
+}`;
 
-const str2 = `
-{
+const str2 = `{
     "type": "commonjs"
-}
-`;
+}`;
 
 try {
   fs.writeFileSync('dist/mjs/package.json', str1, 'utf8');
